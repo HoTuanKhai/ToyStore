@@ -6,7 +6,7 @@ async function connect() {
         await mongoose.connect('mongodb://127.0.0.1/Gundam_Toy_Store', {
             dbName: "Gundam_Toy_Store",
             useNewUrlParser: true,
-            useUnifiedTopology: true
+            useUnifiedTopology: true,
         });
         console.log('Connect successfully!!!')
     }

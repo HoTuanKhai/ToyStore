@@ -1,0 +1,29 @@
+<div class="mt-4">
+    <h3>Cập nhật Gundam</h3>
+
+
+    <form class="mt-4" method="POST" action="/gundams/{{gundam._id}}?_method=PUT">
+        
+        <div class="form-group">
+            <label for="image">Ảnh Gundam</label>
+            <input type="text" class="form-control" value="{{gundam.image}}" id="image" name="image"> 
+        </div>
+
+        <div class="form-group">
+            <label for="name">Tên Gundam</label>
+            <input type="text" class="form-control" value="{{gundam.name}}" id="name" name="name"> 
+        </div>
+
+        <div class="form-group">
+            <label for="price">Giá Gundam</label>
+            <input type="text" class="form-control" value="{{gundam.price}}" id="price" name="price"> 
+        </div>
+
+        <div class="form-group">
+            <label for="videoId">VideoId</label>
+            <input type="text" class="form-control" value="{{gundam.videoId}}" id="videoId" name="videoId"> 
+        </div>
+
+        <button type="submit" class="btn btn-primary">Lưu</button>
+    </form>
+</div>

@@ -4,9 +4,13 @@
         {{#each gundams}}
         <div class="col-sm-6 col-lg-4">
             <div class="card card-gundam-item">
-                <img class="card-img-top" src="{{this.image}}" alt="{{this.name}}">
+                <a href="/gundams/{{this.slug}}">
+                    <img class="card-img-top" src="{{this.image}}" alt="{{this.name}}">
+                </a>
                 <div class="card-body">
-                    <h5 class="card-title">{{this.name}}</h5>
+                    <a href="/gundams/{{this.slug}}">
+                        <h5 class="card-title">{{this.name}}</h5>
+                    </a>
                     <p class="card-text">{{this.price}}</p>
                     <a href="#" class="btn btn-primary">Buy this gundam</a>
                 </div>

@@ -1,0 +1,73 @@
+<div class="mt-4">
+    <h3 style="color:burlywood;">Danh sách Gundam</h3>
+
+    <table class="table mt-4">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Tên Gundam</th>
+                <th scope="col" colspan="2">Giá của Gundam</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each gundams}}
+            <tr>
+                <th scope="row">{{sum @index 1}}</th>
+                <td>{{this.name}}</td>
+                <td>{{this.price}}</td>
+                <td>
+                    <a href="/gundams/{{this._id}}/edit" class="btn btn-link">Sửa</a>
+                    <a href="" class="btn btn-link" data-toggle="modal" data-id="{{this._id}}" data-target="#delete-gundam-modal">Xóa</a>
+                </td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>    
+</div>
+
+
+{{!-- Confirm delete Gundam --}}
+<div id="delete-gundam-modal" class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Delete Gundam?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Are you sure you will delete this gundam????</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+        <button id="btn-delete-gundam" type="button" class="btn btn-danger">Confirm</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{!-- Delete hiden form --}}
+<form name="delete-gundam-form" method="POST"></form>
+
+<script>
+
+    document.addEventListener('DOMContentLoaded', function() {
+
+          var gundamId
+          var deleteForm = document.forms['delete-gundam-form']
+          var btnDeleteGundam = document.getElementById('btn-delete-gundam')
+
+        // When dialog confirm clicked
+        $('#delete-gundam-modal').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget)
+            gundamId = button.data('id')
+        })
+
+        // When delete gundam btn clicked
+        btnDeleteGundam.onclick = function () {
+              deleteForm.action = '/gundams/' + gundamId + '?_method=DELETE'
+              deleteForm.submit()
+        }
+    })
+</script>

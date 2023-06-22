@@ -1,4 +1,5 @@
 const Gundam = require('../models/Gundam')
+const { mutipleMongooseToObject } = require('../../util/mongoose')
 
 class SiteController{
 
@@ -6,8 +7,9 @@ class SiteController{
     index(req, res, next) {
         Gundam.find({})
             .then(gundams => {
-                gundams = gundams.map(gundams => gundams.toObject())
-                res.render('home', { gundams })
+                res.render('home', {
+                     gundams: mutipleMongooseToObject(gundams)
+                    })
             })
             .catch(next)
         
