@@ -1,0 +1,114 @@
+[{
+  "_id": {
+    "$oid": "6492b0fd840a039cc3c08c43"
+  },
+  "name": "HG B033 BARBATOS LUPUS REX",
+  "price": "192.280 VND",
+  "image": "https://my-live-02.slatic.net/p/d55fe016d0300b5218df871c4cc51c97.jpg",
+  "slug": "HG B033 BARBATOS LUPUS REX",
+  "videoId": "bztiUf-Y8nw",
+  "updatedAt": {
+    "$date": "2023-06-22T07:41:36.299Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6492b186840a039cc3c08c44"
+  },
+  "name": "HG RX-0 Unicorn Gundam Destroy Mode",
+  "price": "139.000 VND",
+  "image": "https://salt.tikicdn.com/ts/product/39/cb/6d/69d282d0229398a61aa749090ba38d3a.jpg",
+  "slug": "HG RX-0 Unicorn Gundam Destroy Mode",
+  "videoId": "pwbSM0ut1Kk"
+},
+{
+  "_id": {
+    "$oid": "6492b1f1840a039cc3c08c45"
+  },
+  "name": "HG UC Full Armor Unicorn Gundam",
+  "price": "278.000 VND",
+  "image": "https://product.hstatic.net/200000326537/product/hg178-full_armor_unicorn_destroy-boxart_54eaf4ad917649a0aa1b37adb2175542_master.jpg",
+  "slug": "HG UC Full Armor Unicorn Gundam",
+  "videoId": "GSTJ7mUtEl0"
+},
+{
+  "_id": {
+    "$oid": "6492b23d840a039cc3c08c46"
+  },
+  "name": "HG Astray Red Frame Flight Unit",
+  "price": "158.000 VND",
+  "image": "https://inwfile.com/s-h/o9aqaz.jpg",
+  "slug": "HG Astray Red Frame Flight Unit",
+  "videoId": "accEdZxrH4k"
+},
+{
+  "_id": {
+    "$oid": "6492b289840a039cc3c08c47"
+  },
+  "name": "HG Build Strike Gundam",
+  "price": "158.000 VND",
+  "image": "https://product.hstatic.net/1000231532/product/am_hcm_mo_hinh_gundam_build_strike_full_package_hgbf_chinh_hang_bandai_9731150f831d4ec8b3acb1c48a2e6c60_grande.jpg",
+  "slug": "hg build strike gundam",
+  "videoId": "kjF4xnDunsI"
+},
+{
+  "_id": {
+    "$oid": "6492b2e6840a039cc3c08c48"
+  },
+  "name": "HG Unicorn Gundam 02 Banshee (Destroy Mode)",
+  "price": "139.000 VND",
+  "image": "https://lzd-img-global.slatic.net/g/ff/kf/S2e6c63bfdac843809a79fea1d10589d5J.jpg_720x720q80.jpg",
+  "slug": "HG Unicorn Gundam 02 Banshee (Destroy Mode)",
+  "videoId": "sDlV1C3cx0I"
+},
+{
+  "_id": {
+    "$oid": "64936f431a47184168d5704a"
+  },
+  "name": "HG Gold Astray Amatsu Mina TT Hongli 59",
+  "price": "160.000 VND",
+  "image": "https://riseofgunpla.com/wp-content/uploads/2020/07/GUN83226_1.jpg",
+  "videoId": "y7jwqdQk8b0",
+  "createdAt": {
+    "$date": "2023-06-21T21:44:35.580Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-21T21:44:35.580Z"
+  },
+  "__v": 0,
+  "slug": "hg unicorn"
+},
+{
+  "_id": {
+    "$oid": "6493e93de4d677527354bf96"
+  },
+  "name": "The Witch From Mercury Darilbalde",
+  "price": "234.705 VND",
+  "image": "https://media.karousell.com/media/photos/products/2022/12/18/hg_darilbalde_gundam_witch_fro_1671352052_23938cd9_progressive.jpg",
+  "videoId": "CO3Q1xyy0GE",
+  "createdAt": {
+    "$date": "2023-06-22T06:25:01.011Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-22T06:25:01.011Z"
+  },
+  "slug": "the-witch-from-mercury-darilbalde",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6493e9f2e4d677527354bf9b"
+  },
+  "name": "EXIA DARK MATTER ",
+  "price": "3.341.000 VND",
+  "image": "https://vn-live-01.slatic.net/p/f80973d52359e2e33ff1574f307b7e94.jpg",
+  "videoId": "HjHQxFdbunE",
+  "createdAt": {
+    "$date": "2023-06-22T06:28:02.741Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-22T06:28:02.741Z"
+  },
+  "slug": "exia-dark-matter",
+  "__v": 0
+}]

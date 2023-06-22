@@ -13,6 +13,7 @@ const port = 3000
 // Connect to DB
 db.connect();
 
+
 // Use static folder
 app.use(express.static(path.join(__dirname, 'public')))
 
