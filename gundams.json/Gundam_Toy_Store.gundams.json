@@ -2,70 +2,85 @@
   "_id": {
     "$oid": "6492b0fd840a039cc3c08c43"
   },
-  "name": "HG B033 BARBATOS LUPUS REX",
+  "name": "BARBATOS LUPUS REX",
   "price": "192.280 VND",
   "image": "https://my-live-02.slatic.net/p/d55fe016d0300b5218df871c4cc51c97.jpg",
-  "slug": "HG B033 BARBATOS LUPUS REX",
+  "slug": "BARBATOS LUPUS REX",
   "videoId": "bztiUf-Y8nw",
   "updatedAt": {
-    "$date": "2023-06-22T07:41:36.299Z"
+    "$date": "2023-06-22T16:28:16.703Z"
   }
 },
 {
   "_id": {
     "$oid": "6492b186840a039cc3c08c44"
   },
-  "name": "HG RX-0 Unicorn Gundam Destroy Mode",
+  "name": "Unicorn Gundam Destroy Mode",
   "price": "139.000 VND",
   "image": "https://salt.tikicdn.com/ts/product/39/cb/6d/69d282d0229398a61aa749090ba38d3a.jpg",
-  "slug": "HG RX-0 Unicorn Gundam Destroy Mode",
-  "videoId": "pwbSM0ut1Kk"
+  "slug": "Unicorn Gundam Destroy Mode",
+  "videoId": "pwbSM0ut1Kk",
+  "updatedAt": {
+    "$date": "2023-06-22T16:28:22.903Z"
+  }
 },
 {
   "_id": {
     "$oid": "6492b1f1840a039cc3c08c45"
   },
-  "name": "HG UC Full Armor Unicorn Gundam",
+  "name": "Full Armor Unicorn Gundam",
   "price": "278.000 VND",
   "image": "https://product.hstatic.net/200000326537/product/hg178-full_armor_unicorn_destroy-boxart_54eaf4ad917649a0aa1b37adb2175542_master.jpg",
-  "slug": "HG UC Full Armor Unicorn Gundam",
-  "videoId": "GSTJ7mUtEl0"
+  "slug": "Full Armor Unicorn Gundam",
+  "videoId": "GSTJ7mUtEl0",
+  "updatedAt": {
+    "$date": "2023-06-22T16:28:29.022Z"
+  }
 },
 {
   "_id": {
     "$oid": "6492b23d840a039cc3c08c46"
   },
-  "name": "HG Astray Red Frame Flight Unit",
+  "name": "Astray Red Frame Flight Unit",
   "price": "158.000 VND",
   "image": "https://inwfile.com/s-h/o9aqaz.jpg",
-  "slug": "HG Astray Red Frame Flight Unit",
-  "videoId": "accEdZxrH4k"
+  "slug": "Astray Red Frame Flight Unit",
+  "videoId": "accEdZxrH4k",
+  "updatedAt": {
+    "$date": "2023-06-22T16:28:34.519Z"
+  }
 },
 {
   "_id": {
     "$oid": "6492b289840a039cc3c08c47"
   },
-  "name": "HG Build Strike Gundam",
+  "name": "Build Strike Gundam",
   "price": "158.000 VND",
   "image": "https://product.hstatic.net/1000231532/product/am_hcm_mo_hinh_gundam_build_strike_full_package_hgbf_chinh_hang_bandai_9731150f831d4ec8b3acb1c48a2e6c60_grande.jpg",
-  "slug": "hg build strike gundam",
-  "videoId": "kjF4xnDunsI"
+  "slug": "Build Strike Gundam",
+  "videoId": "kjF4xnDunsI",
+  "updatedAt": {
+    "$date": "2023-06-22T16:28:39.137Z"
+  }
 },
 {
   "_id": {
     "$oid": "6492b2e6840a039cc3c08c48"
   },
-  "name": "HG Unicorn Gundam 02 Banshee (Destroy Mode)",
+  "name": "Unicorn Gundam 02 Banshee (Destroy Mode)",
   "price": "139.000 VND",
   "image": "https://lzd-img-global.slatic.net/g/ff/kf/S2e6c63bfdac843809a79fea1d10589d5J.jpg_720x720q80.jpg",
-  "slug": "HG Unicorn Gundam 02 Banshee (Destroy Mode)",
-  "videoId": "sDlV1C3cx0I"
+  "slug": "Unicorn Gundam 02 Banshee (Destroy Mode)",
+  "videoId": "sDlV1C3cx0I",
+  "updatedAt": {
+    "$date": "2023-06-22T16:28:44.301Z"
+  }
 },
 {
   "_id": {
     "$oid": "64936f431a47184168d5704a"
   },
-  "name": "HG Gold Astray Amatsu Mina TT Hongli 59",
+  "name": "Gold Astray Amatsu Mina TT Hongli 59",
   "price": "160.000 VND",
   "image": "https://riseofgunpla.com/wp-content/uploads/2020/07/GUN83226_1.jpg",
   "videoId": "y7jwqdQk8b0",
@@ -73,10 +88,10 @@
     "$date": "2023-06-21T21:44:35.580Z"
   },
   "updatedAt": {
-    "$date": "2023-06-21T21:44:35.580Z"
+    "$date": "2023-06-22T16:28:49.700Z"
   },
   "__v": 0,
-  "slug": "hg unicorn"
+  "slug": "Gold Astray Amatsu Mina TT Hongli 59"
 },
 {
   "_id": {
@@ -110,5 +125,131 @@
     "$date": "2023-06-22T06:28:02.741Z"
   },
   "slug": "exia-dark-matter",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6494732cffd8a366d2fe01a2"
+  },
+  "name": "Unicorn Perfectibility",
+  "price": "3.350.000 VND",
+  "image": "https://m.media-amazon.com/images/I/71nL0MfHJ-L.jpg",
+  "videoId": "xl9ClAvcdWo",
+  "deleted": false,
+  "createdAt": {
+    "$date": "2023-06-22T16:13:32.828Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-22T16:13:32.828Z"
+  },
+  "slug": "unicorn-perfectibility",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64947b4dffd8a366d2fe01cb"
+  },
+  "name": "Damashii Phantom",
+  "price": "2.150.000 VND",
+  "image": "https://1.bp.blogspot.com/-BYqL0piufsU/X5P6FvJmhcI/AAAAAAAHXOY/wZbMhw5IuoYInb-BLx-D3DKcrOVIEXI1ACLcBGAsYHQ/s1000/robot-spirits-phantom-gundam.jpg",
+  "videoId": "24W0NFFYJPA",
+  "deleted": false,
+  "createdAt": {
+    "$date": "2023-06-22T16:48:13.731Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-22T16:48:13.731Z"
+  },
+  "slug": "damashii-phantom",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64947c8cffd8a366d2fe01cf"
+  },
+  "name": "MSV Eclipse",
+  "price": "2.050.000 VND",
+  "image": "https://cdn.shopify.com/s/files/1/2558/1382/products/IMG_7487_530x@2x.jpg",
+  "videoId": "HYVEqlZZzME",
+  "deleted": false,
+  "createdAt": {
+    "$date": "2023-06-22T16:53:32.555Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-22T16:53:32.555Z"
+  },
+  "slug": "msv-eclipse",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64951f6cffd8a366d2fe02ae"
+  },
+  "name": "Avalanche Exia Dash",
+  "price": "3.450.000 VND",
+  "image": "https://shop.zombster.com.au/8271-medium_default/1-144-hg-00-k64-gundam-avalanche-exia-dash.jpg",
+  "videoId": "Dq6qUWwy9gY",
+  "deleted": false,
+  "createdAt": {
+    "$date": "2023-06-23T04:28:28.416Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-23T04:28:28.416Z"
+  },
+  "slug": "avalanche-exia-dash",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "649520bdffd8a366d2fe02b3"
+  },
+  "name": "STARGAZER Seed Destiny TT Hongli",
+  "price": "135.000 VND",
+  "image": "https://images.tokopedia.net/img/cache/250-square/VqbcmM/2023/2/20/c1ac5213-af15-40af-8438-16693241d206.jpg",
+  "videoId": "gUH-CYp7n2w",
+  "deleted": false,
+  "createdAt": {
+    "$date": "2023-06-23T04:34:05.038Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-23T04:34:05.038Z"
+  },
+  "slug": "stargazer-seed-destiny-tt-hongli",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6495217effd8a366d2fe02b7"
+  },
+  "name": "CONVERGE FW EX15",
+  "price": "1.915.000 VND",
+  "image": "https://img.mandarake.co.jp/webshopimg/02/00/335/0200574335/020057433570.jpg",
+  "videoId": "69OEFZvwmqc",
+  "deleted": false,
+  "createdAt": {
+    "$date": "2023-06-23T04:37:18.510Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-23T04:37:18.510Z"
+  },
+  "slug": "converge-fw-ex15",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64952194ffd8a366d2fe02bc"
+  },
+  "name": "khai",
+  "price": "3.350.000 VND",
+  "image": "https://m.media-amazon.com/images/I/71nL0MfHJ-L.jpg",
+  "videoId": "HjHQxFdbunE",
+  "deleted": false,
+  "createdAt": {
+    "$date": "2023-06-23T04:37:40.669Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-23T04:37:40.669Z"
+  },
+  "slug": "khai",
   "__v": 0
 }]

@@ -1,28 +1,35 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black;">
+
+
   <div class="container">
-    <a class="navbar-brand" href="/">Gundam Toy Store</a>
+
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/" style="color: orange;"><b>Gundam Toy Store</b></a>
+          <img src="data:image/png;base64,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" class="logo">
+        </a>
+      </div>
+    </nav>
+    
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
       </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
 
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <img src="https://yt3.ggpht.com/Q137BYnnpmGMj34NIS93mk4jy94517WVBs--nZAHxIi0d6y6jyseiCKrgqysugnj9ayHKqCnLQ=s88-c-k-c0x00ffffff-no-rj-mo" alt="" class="user-avatar">
-          Khaiht
-        </a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <img src="https://yt3.ggpht.com/Q137BYnnpmGMj34NIS93mk4jy94517WVBs--nZAHxIi0d6y6jyseiCKrgqysugnj9ayHKqCnLQ=s88-c-k-c0x00ffffff-no-rj-mo" alt="" class="user-avatar">
+              Khaiht
+          </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="/gundams/create">Thêm Gundam</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="/me/stored/gundams">Danh sách Gundam</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Đăng xuất</a>
         </div>
-      </li>
-      
-    </ul>
-  </div>
-  </div>
+        </li>
+      </ul>
+    </div>
+
 </nav>

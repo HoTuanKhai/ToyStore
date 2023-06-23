@@ -1,12 +1,40 @@
 <div class="mt-4">
     <div class="row">
+        <style type="text/css" >
+            div{
+                bg-opacity-50;
+                background-image:url(https://c4.wallpaperflare.com/wallpaper/922/223/671/gundam-mobile-suit-gundam-mech-rx-78-gundam-anime-hd-wallpaper-preview.jpg);
+            }   
+        </style>    
 
         <div class="col-lg-9">
-            <h1>{{gundam.name}}</h1>
+            <h1 style="color: darkred;">{{gundam.name}}</h1>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/{{gundam.videoId}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <p>Mô Hình Gundam (Gunpla) Là Một Loại Mô Hình Nhựa Được Gọi Là Model Kit, Bao Gồm Nhiều Mảnh Nhựa Rời Được Gọi Là Part (Bộ Phận), Khi Lắp Ráp Các Part Lại Với Nhau Sẽ Được Mô Hình Hoàn Chỉnh. Các Mảnh Nhựa Rời Này Được Gắn Trên Khung Nhựa Gọi Là Runner. Mỗi Một Hộp Sản Phẩm Gunpla Bao Gồm Nhiều Runner Và Các Phụ Kiện Liên Quan, Một Tập Sách Nhỏ (Manual) Bên Trong Giới Thiệu Sơ Lược Về Mẫu Gundam Trong Hộp Và Phần Hướng Dẫn Cách Lắp Ráp.</p>
-            <p>{{gundam.price}}</p>
-            <button>Buy this gundam</button>
+            <h3 style="background-color: aliceblue;" >Mô Hình Gundam (Gunpla) Là Một Loại Mô Hình Nhựa Được Gọi Là Model Kit, Bao Gồm Nhiều Mảnh Nhựa Rời Được Gọi Là Part (Bộ Phận), Khi Lắp Ráp Các Part Lại Với Nhau Sẽ Được Mô Hình Hoàn Chỉnh. Các Mảnh Nhựa Rời Này Được Gắn Trên Khung Nhựa Gọi Là Runner. Mỗi Một Hộp Sản Phẩm Gunpla Bao Gồm Nhiều Runner Và Các Phụ Kiện Liên Quan, Một Tập Sách Nhỏ (Manual) Bên Trong Giới Thiệu Sơ Lược Về Mẫu Gundam Trong Hộp Và Phần Hướng Dẫn Cách Lắp Ráp.</h3>
+            <h4 style="color: darkorange;">{{gundam.price}}</h4>
+            <a href="/" class="btn btn-primary">Back</a>
+            <a href="/" class="btn btn-primary" data-toggle="modal"data-target="#buy-gundam-modal">Buy this gundam</a>  
         </div>
     </div>
+</div>
+
+
+{{!-- Confirm buy gundam success --}}
+<div id="buy-gundam-modal" class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" style="color: rgb(255, 0, 0);">Purchased Gundam</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h2 style="color: rgb(255, 0, 0);">Gundam has been purchased successfully. Thank you for your support</h2>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
+      </div>
+    </div>
+  </div>
 </div>

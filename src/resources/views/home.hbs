@@ -1,9 +1,15 @@
 <div class="mt-4">
     <div class="row">
-
+        <style type="text/css" >
+            div{
+                background-image:url(https://wallpapers.com/images/featured/g8t326jpw36da9ib.jpg);
+            }   
+        </style>
         {{#each gundams}}
-        <div class="col-sm-6 col-lg-4">
-            <div class="card card-gundam-item">
+        <div class="col-md-2 col-md-4">
+
+
+            <div class="card-gundam-item">
                 <a href="/gundams/{{this.slug}}">
                     <img class="card-img-top" src="{{this.image}}" alt="{{this.name}}">
                 </a>
@@ -11,12 +17,14 @@
                     <a href="/gundams/{{this.slug}}">
                         <h5 class="card-title">{{this.name}}</h5>
                     </a>
-                    <p class="card-text">{{this.price}}</p>
-                    <a href="#" class="btn btn-primary">Buy this gundam</a>
+                    <h3 class="card-text">{{this.price}}</h3>
+                    <a href="/gundams/{{this.slug}}" class="btn btn-primary">Show gundam detail</a>
                 </div>
             </div>
         </div>
         {{/each}}
+
+        
 
     </div>
 </div>
